@@ -7,4 +7,3 @@ int main()
 	y= x%10 < x/10;
 	printf("Result = %d",y);
 }
-
