@@ -7,4 +7,3 @@ int main()
 	y= x%100 == x/100;
 	printf("Result = %d",y);
 }
-
