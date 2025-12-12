@@ -7,4 +7,3 @@ int main()
 	y= x!=50;
 	printf("Result = %d",y);
 }
-
