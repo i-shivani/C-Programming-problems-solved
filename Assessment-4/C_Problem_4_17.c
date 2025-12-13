@@ -5,7 +5,7 @@ int main()
 	y=2;
 	printf("Enter a number:");
 	scanf("%d",&x);
-loop:if(y < x/2)
+loop:if(y <= x/2)
 		if(x%y == 0)
 			printf("Not Prime");
 		else
@@ -16,3 +16,4 @@ loop:if(y < x/2)
 	else
 		printf("Prime");
 }
+
