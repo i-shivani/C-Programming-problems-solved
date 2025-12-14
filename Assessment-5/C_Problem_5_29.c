@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,z,n,a,b=0,lcm=1,p,hcf;
+    int x,y,z,n,a,b=0,lcm=1,p;
     printf("Enter number1: ");
     scanf("%d",&x);
     printf("Enter number2: ");
     scanf("%d",&y);
     printf("Enter number3: ");
     scanf("%d",&z);
-    p=x*y*z;
     if(x>y)
         n=x;
     if(y>x)
@@ -35,4 +34,5 @@ int main()
         }
     }
     printf("%d\n",lcm);
+
 }
